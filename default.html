@@ -5,8 +5,6 @@
     <script type="text/javascript">
 </script>
 
-
-    <link rel="icon"href="icon.png"type="image/png"></link>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <title>I'm Feeling Instant - Real-time page loading.</title>
     <meta name="title" content="I'm Feeling Instant" />
@@ -27,27 +25,18 @@
 
 </head>
 <body>
-<div id="about">
-     Inspired by <a target="_blank" href="http://www.ytinstant.com">YouTube Instant</a>. Created by <a target="_blank" href="https://github.com/wang-bowen">Bowen Wang</a> at <a target="_blank" href="http://codeday.org/houston">CodeDay Houston</a>. Fork <a target="_blank" href="https://github.com/wang-bowen/instagoog">here</a>.
-</div>
-<div id="outerWrapper" style="height:10%; width: 100%">
-    <div id="wrapper"style="width: 100%">
-        <div id="header"style="width: 100%">
-            <input placeholder="Instant Search..."autofocus id="searchBox" value="" spellcheck="false"></input>
-            <span id="info">Displaying <a id="link" target="_blank"></a></span>
-            
+<div id="outerWrapper" style="height:10%">
+    <div id="wrapper">
+        <div id="header">
+            <input autofocus id="searchBox" value="" spellcheck="false"></input>
+            <span id="info">Displaying <a id="link"></a></span>
         </div>
     </div>
 
 </div>
 <div id="bottom"style="height:90%">
-<iframe id="page" src="http://en.wikipedia.org/wiki/Cat"width="100%"height="100%"></iframe>
+<iframe id="page" src="http://en.wikipedia.org/wiki/Ebola_virus_disease"width="100%"height="100%"></iframe>
 </div>
-
-<script type="text/javascript">document.getElementById("link").innerHTML=document.getElementById("page").src;
-    document.getElementById("link").href=document.getElementById("page").src;
-</script>
-
 
 </body>
 </html>
