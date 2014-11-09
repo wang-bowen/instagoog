@@ -8,7 +8,7 @@ Instantly displays first Google Search Result.
 
 Type faster with terms like "Association" ;)
 
-May not display certain sites that disable <iframe>. 
+May not display certain sites that disable iframe. 
 
 Google may eventually block you for spamming.
 
