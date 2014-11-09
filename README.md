@@ -11,3 +11,7 @@ Type faster with terms like "Association" ;)
 May not display certain sites that disable <iframe>. 
 
 Google may eventually block you for spamming.
+
+Circumvented same-origin policy of web security, used deprecated Google Search API. Written in HTML/CSS; Javascript/JSON.
+
+Inspired by YouTube Instant.
